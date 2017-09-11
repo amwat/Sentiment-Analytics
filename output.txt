@@ -1,0 +1,85 @@
+D:\Amit\NCSU\CSC 591 - BI\sentiment\04.Topic-3.SentimentAnalysis.NaiveBayes+LogisticRegression>python sentiment.py data/twitter/ 1
+C:\Python27\lib\site-packages\gensim\utils.py:855: UserWarning: detected Windows; aliasing chunkize to chunkize_serial
+  warnings.warn("detected Windows; aliasing chunkize to chunkize_serial")
+Training iteration 0
+Training iteration 1
+Training iteration 2
+Training iteration 3
+Training iteration 4
+Naive Bayes
+-----------
+predicted:      pos     neg
+actual:
+pos             55199   19801
+neg             45595   29405
+accuracy: 0.564027
+
+Logistic Regression
+-------------------
+predicted:      pos     neg
+actual:
+pos             57034   17966
+neg             30339   44661
+accuracy: 0.677967
+
+D:\Amit\NCSU\CSC 591 - BI\sentiment\04.Topic-3.SentimentAnalysis.NaiveBayes+LogisticRegression>python sentiment.py data/twitter/ 0
+C:\Python27\lib\site-packages\gensim\utils.py:855: UserWarning: detected Windows; aliasing chunkize to chunkize_serial
+  warnings.warn("detected Windows; aliasing chunkize to chunkize_serial")
+Naive Bayes
+-----------
+predicted:      pos     neg
+actual:
+pos             67599   7401
+neg             52108   22892
+accuracy: 0.603273
+
+Logistic Regression
+-------------------
+predicted:      pos     neg
+actual:
+pos             67701   7299
+neg             52239   22761
+accuracy: 0.603080
+
+D:\Amit\NCSU\CSC 591 - BI\sentiment\04.Topic-3.SentimentAnalysis.NaiveBayes+LogisticRegression>python sentiment.py data/imdb/ 0
+C:\Python27\lib\site-packages\gensim\utils.py:855: UserWarning: detected Windows; aliasing chunkize to chunkize_serial
+  warnings.warn("detected Windows; aliasing chunkize to chunkize_serial")
+Naive Bayes
+-----------
+predicted:      pos     neg
+actual:
+pos             10869   1631
+neg             2284    10216
+accuracy: 0.843400
+
+Logistic Regression
+-------------------
+predicted:      pos     neg
+actual:
+pos             10769   1731
+neg             2080    10420
+accuracy: 0.847560
+
+D:\Amit\NCSU\CSC 591 - BI\sentiment\04.Topic-3.SentimentAnalysis.NaiveBayes+LogisticRegression>python sentiment.py data/imdb/ 1
+C:\Python27\lib\site-packages\gensim\utils.py:855: UserWarning: detected Windows; aliasing chunkize to chunkize_serial
+  warnings.warn("detected Windows; aliasing chunkize to chunkize_serial")
+Training iteration 0
+Training iteration 1
+Training iteration 2
+Training iteration 3
+Training iteration 4
+Naive Bayes
+-----------
+predicted:      pos     neg
+actual:
+pos             5515    6985
+neg             2208    10292
+accuracy: 0.632280
+
+Logistic Regression
+-------------------
+predicted:      pos     neg
+actual:
+pos             10764   1736
+neg             1739    10761
+accuracy: 0.861000
